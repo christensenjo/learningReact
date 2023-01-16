@@ -1,0 +1,26 @@
+.HeaderBar {
+    background-color: #042563;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: calc(10px + 2vmin);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.LinkLogo{
+    height: 5vh;
+    width: auto;
+}
+
+.Signature-gif{
+    height: 8vh;
+    border-radius: 1vh;
+    width: auto;
+    display: flex;
+    justify-content: left;
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
