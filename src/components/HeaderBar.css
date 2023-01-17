@@ -1,22 +1,25 @@
 .HeaderBar {
     background-color: #042563;
-    height: 10vh;
+    height: 7vh;
     display: flex;
     align-items: center;
     justify-content: left;
-    font-size: calc(10px + 2vmin);
+    font-size: calc(10px + 1.4vmin);
     position: fixed;
     top: 0;
     width: 100%;
 }
 
 .LinkLogo{
-    height: 5vh;
+    height: 3vh;
     width: auto;
+    float: right;
+    border-radius: 0.5vh;
+    padding-left: 1vh;
 }
 
 .Signature-gif{
-    height: 8vh;
+    height: 5vh;
     border-radius: 1vh;
     width: auto;
     display: flex;
@@ -24,3 +27,17 @@
     margin-left: 3vh;
     margin-right: 3vh;
 }
+
+.Nav-pages{
+    padding-right: 70%;
+}
+
+.Nav-pages a{
+    color: #FCFCFF;
+    text-decoration: none;
+}
+
+/* .Nav-link{
+    color: #FCFCFF;
+
+} */
