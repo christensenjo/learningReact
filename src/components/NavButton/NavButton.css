@@ -1,0 +1,51 @@
+.NavButton {
+  font-size: calc(10px + 1vh);
+  background-color:#0B3077;
+  border: 1px solid #FCFCFF;
+  border-radius: 15px;
+  box-sizing: border-box; /* Padding and border are included in height and width */
+  color: #FCFCFF;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  min-height: 30px;
+  min-width: 0;
+  text-align: center;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.NavButton:disabled {
+  pointer-events: none;
+}
+
+.NavButton:hover {
+  color:#0B3077;
+  background-color:#FCFCFF;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 2px 5px;
+  transform: translateY(-2px);
+}
+
+.NavButton:active{
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.NavButton a {
+  color: #FCFCFF;
+  text-decoration: none;
+  display: block;
+  padding: 8px 12px;
+}
+
+.NavButton a:hover {
+  color:#0B3077;
+}
+
+.NavButton button:hover {
+  color:#0B3077;
+}
