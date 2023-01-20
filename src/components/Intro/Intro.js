@@ -1,6 +1,6 @@
 import React from "react";
 import { useMeasure } from "react-use";
-import profile from './bookmark_profile_2.png';
+import profile from './bookmark_profile_3.png';
 import bgImg from './intro_background.png';
 import './Intro.css';
 
