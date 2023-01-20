@@ -1,0 +1,20 @@
+.IntroBox {
+    display: flex;
+    margin-top: 7vh;
+}
+
+.IntroBox p {
+    color: black;
+    font-size: 2em;
+}
+
+.WelcomeText {
+    flex: 1.4;
+}
+
+
+.ProfilePortrait {
+    flex: 1;
+    width: 40%;
+    height: auto;
+}

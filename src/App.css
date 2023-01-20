@@ -25,10 +25,19 @@
 }
 
 @keyframes App-logo-spin {
-  from {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+  20% {transform: translateY(-30px);} 
+  40% {transform: translateY(-15px);}
+  60% {transform: translateY(-8px);}
+
+  /* from {
     transform: rotate(0deg);
-  }
+    /* transform: perspective(20px); */
+    /* transform: translateY(-500px); */
+  /* }
   to {
-    transform: rotate(360deg);
-  }
+    transform: rotate(360deg); */
+    /* transform: perspective(40px); */
+    /* transform: translateY(500px); */
+  /* } */
 }
