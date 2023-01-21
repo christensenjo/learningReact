@@ -1,3 +1,4 @@
+/* ------  Parent Styles  ------ */
 .IntroBox {
     display: flex;
     margin-top: 7vh;
@@ -6,24 +7,43 @@
 
 .IntroBox p {
     color: #042563;
-    font-size: 2em;
+    font-size: 5vh;
+}
+
+
+/* -------------  Intro text and animations  -------------- */
+@keyframes typewriter{
+    from{width: 0;}
+    to{width: 20vh;}
+}
+
+@keyframes blinkTextCursor{
+    from{border-right-color: rgba(20, 74, 145, 0.75);}
+    to{border-right-color: transparent;}
 }
 
 .WelcomeText {
+    margin-top: 40vh;
+    transform: translateY(-50%);
     flex: 8;
     padding: 0 15vh 0 15vh;
+    color: #042563;
     font-family: lato, sans-serif;
     font-weight: 300;
     font-style: normal;
+    font-size: 5em;
+    text-align: center;
+    animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;  
 }
 
 
+/* ------------  Profile Portrait  ------------- */
 .ProfilePortrait {
     margin-top: -7vh;
     flex: 1;
     height: 80vh;
     width: 80vh;
-    animation: ProfilePortraitImg 1s 1 linear alternate;
+    /* animation: ProfilePortraitImg 1s 1 linear alternate; */
 }
 
 /* banner slide down animation for profile portrait */

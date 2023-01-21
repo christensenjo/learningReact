@@ -15,6 +15,7 @@ function HeaderBar(props){
                 <nav className="Nav-pages">
                     {/* add NavButton components here */}
                     <NavButton name="Home" href="https://learningreact-cc1a4.web.app/" />
+                    <NavButton name="Resume" href="https://learningreact-cc1a4.web.app/" />
                 </nav>
                 <nav className="Nav-socials">
                     <a href="https://www.instagram.com/joelbc__/"><img src={insta} className="SocialLogo" alt="Instagram Logo" /></a>

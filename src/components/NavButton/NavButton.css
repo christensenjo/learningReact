@@ -20,6 +20,7 @@
   touch-action: manipulation;
   width: 100%;
   will-change: transform;
+  margin-right: 1vh;
 }
 
 .NavButton:disabled {
